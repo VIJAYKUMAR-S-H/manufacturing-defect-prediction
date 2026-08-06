@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+.pytest_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Docker
+*.tar
+
+# Keep trained models? (Choose one)
+# models/
+
+# Large raw datasets (optional)
+# data/raw/

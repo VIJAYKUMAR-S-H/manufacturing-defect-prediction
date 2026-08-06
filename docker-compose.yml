@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+
+  manufacturing-api:
+
+    build: .
+
+    container_name: manufacturing_prediction
+
+    ports:
+      - "8000:8000"
+
+    restart: unless-stopped
